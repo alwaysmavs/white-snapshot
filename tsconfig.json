@@ -4,6 +4,7 @@
         "noImplicitAny": true,
         "declaration": true,
         "module": "commonjs",
+        "esModuleInterop":true,
         "moduleResolution": "node",
         "declarationDir": "dist/types",
         "target": "es5",
