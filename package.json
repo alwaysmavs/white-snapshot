@@ -1,0 +1,32 @@
+{
+  "name": "white-snapshot",
+  "version": "0.1.0",
+  "description": "convert white-web-sdk scenes to image",
+  "main": "dist/cmjs/index.js",
+  "module": "dist/es6/index.js",
+  "types": "dist/types/index.d.ts",
+  "author": "yleaf",
+  "homepage": "https://github.com/netless-io",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "yarn build:cmjs; yarn build:es6",
+    "build:cmjs": "tsc --module commonjs -outDir dist/cmjs",
+    "build:es6": "tsc --module ES6 --outDir dist/es6"
+  },
+  "paths": {
+    "*": [
+      "node_modules/white-web-sdk/types/*"
+    ]
+  },
+  "peerDependencies": {
+    "white-web-sdk": "^2.2.0"
+  },
+  "devDependencies": {
+    "rimraf": "2.6.3",
+    "white-web-sdk": "^2.2.0"
+  },
+  "dependencies": {
+    "html2canvas": "^1.0.0-rc.3"
+  }
+}

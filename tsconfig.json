@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "skipLibCheck": true,
+        "noImplicitAny": true,
+        "declaration": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "declarationDir": "dist/types",
+        "target": "es5",
+        "lib": ["es6", "dom"],
+        "baseUrl": ".",
+        "paths": {
+          "*" : ["node_modules/white-web-sdk/types/*"]
+        }
+    }
+}
