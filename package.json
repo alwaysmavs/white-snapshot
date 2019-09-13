@@ -6,7 +6,7 @@
   "module": "dist/es6/index.js",
   "types": "dist/types/index.d.ts",
   "author": "yleaf",
-  "homepage": "https://github.com/netless-io",
+  "homepage": "https://github.com/netless-io/white-snapshot",
   "license": "MIT",
   "private": false,
   "scripts": {
