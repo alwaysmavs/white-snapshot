@@ -1,6 +1,6 @@
 {
   "name": "@netless/white-snapshot",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "convert white-web-sdk scenes to image",
   "main": "dist/cmjs/index.js",
   "module": "dist/es6/index.js",
